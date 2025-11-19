@@ -10,9 +10,15 @@ python journealctl
 
 <img width="1600" height="896" alt="image" src="https://github.com/user-attachments/assets/01ee5e30-cac5-4526-ad31-294dbb6c97b1" />
 
+
+Task - 1
 ![WhatsApp Image 2025-11-18 at 7 52 24 PM](https://github.com/user-attachments/assets/dfee09f4-a704-420f-8219-8ecf2bf41635)
 
+
+Task - 2
 ![WhatsApp Image 2025-11-18 at 7 52 33 PM](https://github.com/user-attachments/assets/63c0b19c-f1c6-4933-904a-748400756119)
 
+
+Task - 3
 ![WhatsApp Image 2025-11-18 at 7 52 33 PM (1)](https://github.com/user-attachments/assets/e6169d82-9582-4fec-b496-8ea789cd740c)
 
