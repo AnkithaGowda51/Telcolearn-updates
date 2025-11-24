@@ -1,0 +1,30 @@
+GNU nano 7.2                                          generate_logs.sh
+#!/bin/bash
+
+LOG_FILE="system.log"
+
+echo "Generating realistic real-time logs in $LOG_FILE ..."
+
+SERVICES=("auth-service" "db-service" "api-gateway" "nginx" "cache-service")
+LEVELS=("DEBUG" "INFO" "WARNING" "ERROR" "CRITICAL")
+
+for i in {1..200}; do
+
+    SERVICE=${SERVICES[$RANDOM % ${#SERVICES[@]}]}
+    LEVEL=${LEVELS[$RANDOM % ${#LEVELS[@]}]}
+    PID=$((RANDOM % 9000 + 1000))
+    IP="192.168.$((RANDOM % 255)).$((RANDOM % 255))"
+
+    TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
+
+    case $LEVEL in
+        DEBUG)
+            MESSAGE="Connection check routine executed"
+            ;;
+        INFO)
+            MESSAGE="User request processed successfully"
+            ;;
+        WARNING)
+            MESSAGE="High memory usage detected (usage=$((RANDOM % 90 + 10))%)"
+            ;;
+
