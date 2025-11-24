@@ -1,3 +1,7 @@
+<h2> Day 1 of week 3 <h2>
+
+
+
                 # Step 1: Define sample data (latency values in ms)
                 latency_data = [20, 35, 50, 15, 40, 60, 25]
 
