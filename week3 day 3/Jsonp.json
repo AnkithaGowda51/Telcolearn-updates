@@ -1,0 +1,1115 @@
+[
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:06.961611000Z",
+          "frame.time_utc": "2025-11-26T05:06:06.961611000Z",
+          "frame.time_epoch": "2025-11-26T05:06:06.961611000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "91",
+          "frame.cap_len": "91",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ipv6:udp:data",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "72:80:2b:05:be:b6",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "72:80:2b:05:be:b6",
+            "eth.dst.oui": "7503915",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "50:76:af:34:9e:32",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_34:9e:32",
+            "eth.src.oui": "5273263",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x86dd",
+          "eth.stream": "0"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x01597d",
+          "ipv6.plen": "37",
+          "ipv6.nxt": "17",
+          "ipv6.hlim": "63",
+          "ipv6.src": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.src_host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.dst": "2404:6800:4007:811::200a",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2404:6800:4007:811::200a",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.dst_host": "2404:6800:4007:811::200a",
+          "ipv6.host": "2404:6800:4007:811::200a",
+          "ipv6.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "53310",
+          "udp.dstport": "443",
+          "udp.port": "53310",
+          "udp.port": "443",
+          "udp.length": "37",
+          "udp.checksum": "0x2c04",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "5b:f5:41:2e:da:77:95:88:4f:85:1d:b2:b6:5e:8e:3d:39:8f:a0:ad:10:6e:97:c6:e7:77:bc:4b:e3"
+        },
+        "data": {
+          "data.data": "5b:f5:41:2e:da:77:95:88:4f:85:1d:b2:b6:5e:8e:3d:39:8f:a0:ad:10:6e:97:c6:e7:77:bc:4b:e3",
+          "data.len": "29"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:07.056791000Z",
+          "frame.time_utc": "2025-11-26T05:06:07.056791000Z",
+          "frame.time_epoch": "2025-11-26T05:06:07.056791000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.095180000",
+          "frame.time_delta_displayed": "0.095180000",
+          "frame.time_relative": "0.095180000",
+          "frame.number": "2",
+          "frame.len": "91",
+          "frame.cap_len": "91",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ipv6:udp:data",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "72:80:2b:05:be:b6",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "72:80:2b:05:be:b6",
+            "eth.dst.oui": "7503915",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "50:76:af:34:9e:32",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_34:9e:32",
+            "eth.src.oui": "5273263",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x86dd",
+          "eth.stream": "0"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x01597d",
+          "ipv6.plen": "37",
+          "ipv6.nxt": "17",
+          "ipv6.hlim": "63",
+          "ipv6.src": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.src_host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.dst": "2404:6800:4007:811::200a",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2404:6800:4007:811::200a",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.dst_host": "2404:6800:4007:811::200a",
+          "ipv6.host": "2404:6800:4007:811::200a",
+          "ipv6.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "53310",
+          "udp.dstport": "443",
+          "udp.port": "53310",
+          "udp.port": "443",
+          "udp.length": "37",
+          "udp.checksum": "0x1d71",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.095180000",
+            "udp.time_delta": "0.095180000"
+          },
+          "udp.payload": "46:f5:41:2e:da:77:95:88:4f:6e:27:0a:7c:43:94:ef:ad:32:f1:9d:c3:52:c8:c4:10:be:e2:4a:39"
+        },
+        "data": {
+          "data.data": "46:f5:41:2e:da:77:95:88:4f:6e:27:0a:7c:43:94:ef:ad:32:f1:9d:c3:52:c8:c4:10:be:e2:4a:39",
+          "data.len": "29"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:07.109871000Z",
+          "frame.time_utc": "2025-11-26T05:06:07.109871000Z",
+          "frame.time_epoch": "2025-11-26T05:06:07.109871000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.053080000",
+          "frame.time_delta_displayed": "0.053080000",
+          "frame.time_relative": "0.148260000",
+          "frame.number": "3",
+          "frame.len": "88",
+          "frame.cap_len": "88",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ipv6:udp:data",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "50:76:af:34:9e:32",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_34:9e:32",
+            "eth.dst.oui": "5273263",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "72:80:2b:05:be:b6",
+          "eth.src_tree": {
+            "eth.src_resolved": "72:80:2b:05:be:b6",
+            "eth.src.oui": "7503915",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x86dd",
+          "eth.stream": "0"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x000000",
+          "ipv6.plen": "34",
+          "ipv6.nxt": "17",
+          "ipv6.hlim": "57",
+          "ipv6.src": "2404:6800:4007:811::200a",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2404:6800:4007:811::200a",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.src_host": "2404:6800:4007:811::200a",
+          "ipv6.host": "2404:6800:4007:811::200a",
+          "ipv6.dst": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.dst_host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "443",
+          "udp.dstport": "53310",
+          "udp.port": "443",
+          "udp.port": "53310",
+          "udp.length": "34",
+          "udp.checksum": "0x306e",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.148260000",
+            "udp.time_delta": "0.053080000"
+          },
+          "udp.payload": "47:8c:4a:87:5a:2f:a9:91:d1:c7:99:39:f2:3f:c1:22:80:59:15:58:f1:cf:6c:59:1b:b6"
+        },
+        "data": {
+          "data.data": "47:8c:4a:87:5a:2f:a9:91:d1:c7:99:39:f2:3f:c1:22:80:59:15:58:f1:cf:6c:59:1b:b6",
+          "data.len": "26"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:13.188685000Z",
+          "frame.time_utc": "2025-11-26T05:06:13.188685000Z",
+          "frame.time_epoch": "2025-11-26T05:06:13.188685000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "6.078814000",
+          "frame.time_delta_displayed": "6.078814000",
+          "frame.time_relative": "6.227074000",
+          "frame.number": "4",
+          "frame.len": "90",
+          "frame.cap_len": "90",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:ntp",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "72:80:2b:05:be:b6",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "72:80:2b:05:be:b6",
+            "eth.dst.oui": "7503915",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "50:76:af:34:9e:32",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_34:9e:32",
+            "eth.src.oui": "5273263",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xb8",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "46",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "76",
+          "ip.id": "0x7f9e",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "17",
+          "ip.checksum": "0x29ee",
+          "ip.checksum.status": "2",
+          "ip.src": "10.137.207.121",
+          "ip.addr": "10.137.207.121",
+          "ip.src_host": "10.137.207.121",
+          "ip.host": "10.137.207.121",
+          "ip.dst": "91.189.91.157",
+          "ip.addr": "91.189.91.157",
+          "ip.dst_host": "91.189.91.157",
+          "ip.host": "91.189.91.157",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "50269",
+          "udp.dstport": "123",
+          "udp.port": "50269",
+          "udp.port": "123",
+          "udp.length": "56",
+          "udp.checksum": "0xeec0",
+          "udp.checksum.status": "2",
+          "udp.stream": "1",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "23:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:2e:e5:ed:50:12:6b:68:e6"
+        },
+        "ntp": {
+          "ntp.flags": "0x23",
+          "ntp.flags_tree": {
+            "ntp.flags.li": "0",
+            "ntp.flags.vn": "4",
+            "ntp.flags.mode": "3"
+          },
+          "ntp.response_in": "7",
+          "ntp.stratum": "0",
+          "ntp.ppoll": "0",
+          "ntp.precision": "0",
+          "ntp.rootdelay": "0",
+          "ntp.rootdispersion": "0",
+          "ntp.refid": "00:00:00:00",
+          "ntp.reftime": "1970-01-01T00:00:00.000000000Z",
+          "ntp.org": "1970-01-01T00:00:00.000000000Z",
+          "ntp.rec": "1970-01-01T00:00:00.000000000Z",
+          "ntp.xmt": "2061-01-12T23:42:08.071951442Z"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:13.188710000Z",
+          "frame.time_utc": "2025-11-26T05:06:13.188710000Z",
+          "frame.time_epoch": "2025-11-26T05:06:13.188710000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000025000",
+          "frame.time_delta_displayed": "0.000025000",
+          "frame.time_relative": "6.227099000",
+          "frame.number": "5",
+          "frame.len": "90",
+          "frame.cap_len": "90",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:ntp",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "72:80:2b:05:be:b6",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "72:80:2b:05:be:b6",
+            "eth.dst.oui": "7503915",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "50:76:af:34:9e:32",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_34:9e:32",
+            "eth.src.oui": "5273263",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xb8",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "46",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "76",
+          "ip.id": "0x7f9f",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "17",
+          "ip.checksum": "0x29ed",
+          "ip.checksum.status": "2",
+          "ip.src": "10.137.207.121",
+          "ip.addr": "10.137.207.121",
+          "ip.src_host": "10.137.207.121",
+          "ip.host": "10.137.207.121",
+          "ip.dst": "91.189.91.157",
+          "ip.addr": "91.189.91.157",
+          "ip.dst_host": "91.189.91.157",
+          "ip.host": "91.189.91.157",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "50214",
+          "udp.dstport": "123",
+          "udp.port": "50214",
+          "udp.port": "123",
+          "udp.length": "56",
+          "udp.checksum": "0x3625",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "udp.stream.pnum": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "23:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:c4:c8:d4:09:d1:dc:e5:aa"
+        },
+        "ntp": {
+          "ntp.flags": "0x23",
+          "ntp.flags_tree": {
+            "ntp.flags.li": "0",
+            "ntp.flags.vn": "4",
+            "ntp.flags.mode": "3"
+          },
+          "ntp.response_in": "8",
+          "ntp.stratum": "0",
+          "ntp.ppoll": "0",
+          "ntp.precision": "0",
+          "ntp.rootdelay": "0",
+          "ntp.rootdispersion": "0",
+          "ntp.refid": "00:00:00:00",
+          "ntp.reftime": "1970-01-01T00:00:00.000000000Z",
+          "ntp.org": "1970-01-01T00:00:00.000000000Z",
+          "ntp.rec": "1970-01-01T00:00:00.000000000Z",
+          "ntp.xmt": "2004-08-14T18:10:17.819776872Z"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:13.515261000Z",
+          "frame.time_utc": "2025-11-26T05:06:13.515261000Z",
+          "frame.time_epoch": "2025-11-26T05:06:13.515261000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.326551000",
+          "frame.time_delta_displayed": "0.326551000",
+          "frame.time_relative": "6.553650000",
+          "frame.number": "6",
+          "frame.len": "91",
+          "frame.cap_len": "91",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ipv6:udp:data",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "72:80:2b:05:be:b6",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "72:80:2b:05:be:b6",
+            "eth.dst.oui": "7503915",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "50:76:af:34:9e:32",
+          "eth.src_tree": {
+            "eth.src_resolved": "Intel_34:9e:32",
+            "eth.src.oui": "5273263",
+            "eth.src.oui_resolved": "Intel Corporate",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x86dd",
+          "eth.stream": "0"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x01597d",
+          "ipv6.plen": "37",
+          "ipv6.nxt": "17",
+          "ipv6.hlim": "63",
+          "ipv6.src": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.src_host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.dst": "2404:6800:4007:811::200a",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2404:6800:4007:811::200a",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.dst_host": "2404:6800:4007:811::200a",
+          "ipv6.host": "2404:6800:4007:811::200a",
+          "ipv6.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "53310",
+          "udp.dstport": "443",
+          "udp.port": "53310",
+          "udp.port": "443",
+          "udp.length": "37",
+          "udp.checksum": "0x92e2",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "4",
+          "Timestamps": {
+            "udp.time_relative": "6.553650000",
+            "udp.time_delta": "6.405390000"
+          },
+          "udp.payload": "4d:f5:41:2e:da:77:95:88:4f:f8:66:1b:46:36:bb:fa:b8:ca:69:bf:53:73:fe:26:b5:d9:8c:e7:f3"
+        },
+        "data": {
+          "data.data": "4d:f5:41:2e:da:77:95:88:4f:f8:66:1b:46:36:bb:fa:b8:ca:69:bf:53:73:fe:26:b5:d9:8c:e7:f3",
+          "data.len": "29"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:13.519615000Z",
+          "frame.time_utc": "2025-11-26T05:06:13.519615000Z",
+          "frame.time_epoch": "2025-11-26T05:06:13.519615000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.004354000",
+          "frame.time_delta_displayed": "0.004354000",
+          "frame.time_relative": "6.558004000",
+          "frame.number": "7",
+          "frame.len": "94",
+          "frame.cap_len": "94",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:vlan:ethertype:ip:udp:ntp",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "50:76:af:34:9e:32",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_34:9e:32",
+            "eth.dst.oui": "5273263",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "72:80:2b:05:be:b6",
+          "eth.src_tree": {
+            "eth.src_resolved": "72:80:2b:05:be:b6",
+            "eth.src.oui": "7503915",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8100",
+          "eth.stream": "0"
+        },
+        "vlan": {
+          "vlan.priority": "0",
+          "vlan.dei": "0",
+          "vlan.id": "0",
+          "vlan.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x20",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "8",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "76",
+          "ip.id": "0x0000",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "38",
+          "ip.proto": "17",
+          "ip.checksum": "0xc324",
+          "ip.checksum.status": "2",
+          "ip.src": "91.189.91.157",
+          "ip.addr": "91.189.91.157",
+          "ip.src_host": "91.189.91.157",
+          "ip.host": "91.189.91.157",
+          "ip.dst": "10.137.207.121",
+          "ip.addr": "10.137.207.121",
+          "ip.dst_host": "10.137.207.121",
+          "ip.host": "10.137.207.121",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "123",
+          "udp.dstport": "50269",
+          "udp.port": "123",
+          "udp.port": "50269",
+          "udp.length": "56",
+          "udp.checksum": "0x30b6",
+          "udp.checksum.status": "2",
+          "udp.stream": "1",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.330930000",
+            "udp.time_delta": "0.330930000"
+          },
+          "udp.payload": "24:02:00:e8:00:00:0b:10:00:00:00:2c:84:a3:60:01:ec:d1:08:bf:f9:9b:16:a9:2e:e5:ed:50:12:6b:68:e6:ec:d1:09:44:1e:c6:19:9f:ec:d1:09:44:1e:c9:83:0f"
+        },
+        "ntp": {
+          "ntp.flags": "0x24",
+          "ntp.flags_tree": {
+            "ntp.flags.li": "0",
+            "ntp.flags.vn": "4",
+            "ntp.flags.mode": "4"
+          },
+          "ntp.request_in": "4",
+          "ntp.delta_time": "0.330930000",
+          "ntp.stratum": "2",
+          "ntp.ppoll": "0",
+          "ntp.precision": "-24",
+          "ntp.rootdelay": "2832",
+          "ntp.rootdispersion": "44",
+          "ntp.refid": "84:a3:60:01",
+          "ntp.reftime": "2025-11-26T05:03:59.975022712Z",
+          "ntp.org": "2061-01-12T23:42:08.071951442Z",
+          "ntp.rec": "2025-11-26T05:06:12.120210267Z",
+          "ntp.xmt": "2025-11-26T05:06:12.120262328Z"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:13.519615000Z",
+          "frame.time_utc": "2025-11-26T05:06:13.519615000Z",
+          "frame.time_epoch": "2025-11-26T05:06:13.519615000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "6.558004000",
+          "frame.number": "8",
+          "frame.len": "94",
+          "frame.cap_len": "94",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:vlan:ethertype:ip:udp:ntp",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "50:76:af:34:9e:32",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_34:9e:32",
+            "eth.dst.oui": "5273263",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "72:80:2b:05:be:b6",
+          "eth.src_tree": {
+            "eth.src_resolved": "72:80:2b:05:be:b6",
+            "eth.src.oui": "7503915",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x8100",
+          "eth.stream": "0"
+        },
+        "vlan": {
+          "vlan.priority": "0",
+          "vlan.dei": "0",
+          "vlan.id": "0",
+          "vlan.etype": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x20",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "8",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "76",
+          "ip.id": "0x0000",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "36",
+          "ip.proto": "17",
+          "ip.checksum": "0xc524",
+          "ip.checksum.status": "2",
+          "ip.src": "91.189.91.157",
+          "ip.addr": "91.189.91.157",
+          "ip.src_host": "91.189.91.157",
+          "ip.host": "91.189.91.157",
+          "ip.dst": "10.137.207.121",
+          "ip.addr": "10.137.207.121",
+          "ip.dst_host": "10.137.207.121",
+          "ip.host": "10.137.207.121",
+          "ip.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "123",
+          "udp.dstport": "50214",
+          "udp.port": "123",
+          "udp.port": "50214",
+          "udp.length": "56",
+          "udp.checksum": "0x205f",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "udp.stream.pnum": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.330905000",
+            "udp.time_delta": "0.330905000"
+          },
+          "udp.payload": "24:02:00:e8:00:00:0b:10:00:00:00:2c:84:a3:60:01:ec:d1:08:bf:f9:9b:16:a9:c4:c8:d4:09:d1:dc:e5:aa:ec:d1:09:44:1e:52:bf:eb:ec:d1:09:44:1e:6f:35:4c"
+        },
+        "ntp": {
+          "ntp.flags": "0x24",
+          "ntp.flags_tree": {
+            "ntp.flags.li": "0",
+            "ntp.flags.vn": "4",
+            "ntp.flags.mode": "4"
+          },
+          "ntp.request_in": "5",
+          "ntp.delta_time": "0.330905000",
+          "ntp.stratum": "2",
+          "ntp.ppoll": "0",
+          "ntp.precision": "-24",
+          "ntp.rootdelay": "2832",
+          "ntp.rootdispersion": "44",
+          "ntp.refid": "84:a3:60:01",
+          "ntp.reftime": "2025-11-26T05:03:59.975022712Z",
+          "ntp.org": "2004-08-14T18:10:17.819776872Z",
+          "ntp.rec": "2025-11-26T05:06:12.118450159Z",
+          "ntp.xmt": "2025-11-26T05:06:12.118884402Z"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-11-26",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{96B80AE4-35F5-4D94-95FC-CE6C4FC819E2}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2025-11-26T05:06:13.557642000Z",
+          "frame.time_utc": "2025-11-26T05:06:13.557642000Z",
+          "frame.time_epoch": "2025-11-26T05:06:13.557642000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.038027000",
+          "frame.time_delta_displayed": "0.038027000",
+          "frame.time_relative": "6.596031000",
+          "frame.number": "9",
+          "frame.len": "88",
+          "frame.cap_len": "88",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ipv6:udp:data",
+          "frame.encoding": "0",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "50:76:af:34:9e:32",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Intel_34:9e:32",
+            "eth.dst.oui": "5273263",
+            "eth.dst.oui_resolved": "Intel Corporate",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "50:76:af:34:9e:32",
+            "eth.addr_resolved": "Intel_34:9e:32",
+            "eth.addr.oui": "5273263",
+            "eth.addr.oui_resolved": "Intel Corporate",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "72:80:2b:05:be:b6",
+          "eth.src_tree": {
+            "eth.src_resolved": "72:80:2b:05:be:b6",
+            "eth.src.oui": "7503915",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "72:80:2b:05:be:b6",
+            "eth.addr_resolved": "72:80:2b:05:be:b6",
+            "eth.addr.oui": "7503915",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x86dd",
+          "eth.stream": "0"
+        },
+        "ipv6": {
+          "ipv6.version": "6",
+          "ip.version": "6",
+          "ipv6.tclass": "0x00000000",
+          "ipv6.tclass_tree": {
+            "ipv6.tclass.dscp": "0",
+            "ipv6.tclass.ecn": "0"
+          },
+          "ipv6.flow": "0x000000",
+          "ipv6.plen": "34",
+          "ipv6.nxt": "17",
+          "ipv6.hlim": "57",
+          "ipv6.src": "2404:6800:4007:811::200a",
+          "ipv6.src_tree": {
+            "ipv6.src_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2404:6800:4007:811::200a",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.src_host": "2404:6800:4007:811::200a",
+          "ipv6.host": "2404:6800:4007:811::200a",
+          "ipv6.dst": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.dst_tree": {
+            "ipv6.dst_addr_space": "Global Unicast"
+          },
+          "ipv6.addr": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.addr_tree": {
+            "ipv6.addr_space": "Global Unicast"
+          },
+          "ipv6.dst_host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.host": "2409:40f2:127:d035:c9db:9317:a6d1:b35",
+          "ipv6.stream": "0"
+        },
+        "udp": {
+          "udp.srcport": "443",
+          "udp.dstport": "53310",
+          "udp.port": "443",
+          "udp.port": "53310",
+          "udp.length": "34",
+          "udp.checksum": "0x08e7",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "udp.stream.pnum": "5",
+          "Timestamps": {
+            "udp.time_relative": "6.596031000",
+            "udp.time_delta": "0.042381000"
+          },
+          "udp.payload": "5c:47:ac:0e:36:bc:44:ad:56:7e:31:ac:6a:43:58:7e:31:92:6c:22:dc:c2:93:be:0e:6f"
+        },
+        "data": {
+          "data.data": "5c:47:ac:0e:36:bc:44:ad:56:7e:31:ac:6a:43:58:7e:31:92:6c:22:dc:c2:93:be:0e:6f",
+          "data.len": "26"
+        }
+      }
+    }
+  }
+]
