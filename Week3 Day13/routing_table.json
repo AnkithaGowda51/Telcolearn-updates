@@ -1,0 +1,149 @@
+[
+    {
+        "route": "0.0.0.0",
+        "interface": "10.137.207.121",
+        "protocol": "N/A",
+        "source": "10.137.207.121",
+        "metric": "55"
+    },
+    {
+        "route": "10.137.207.0",
+        "interface": "10.137.207.121",
+        "protocol": "N/A",
+        "source": "10.137.207.121",
+        "metric": "311"
+    },
+    {
+        "route": "10.137.207.121",
+        "interface": "10.137.207.121",
+        "protocol": "N/A",
+        "source": "10.137.207.121",
+        "metric": "311"
+    },
+    {
+        "route": "10.137.207.255",
+        "interface": "10.137.207.121",
+        "protocol": "N/A",
+        "source": "10.137.207.121",
+        "metric": "311"
+    },
+    {
+        "route": "127.0.0.0",
+        "interface": "127.0.0.1",
+        "protocol": "N/A",
+        "source": "127.0.0.1",
+        "metric": "331"
+    },
+    {
+        "route": "127.0.0.1",
+        "interface": "127.0.0.1",
+        "protocol": "N/A",
+        "source": "127.0.0.1",
+        "metric": "331"
+    },
+    {
+        "route": "127.255.255.255",
+        "interface": "127.0.0.1",
+        "protocol": "N/A",
+        "source": "127.0.0.1",
+        "metric": "331"
+    },
+    {
+        "route": "172.17.224.0",
+        "interface": "172.17.224.1",
+        "protocol": "N/A",
+        "source": "172.17.224.1",
+        "metric": "271"
+    },
+    {
+        "route": "172.17.224.1",
+        "interface": "172.17.224.1",
+        "protocol": "N/A",
+        "source": "172.17.224.1",
+        "metric": "271"
+    },
+    {
+        "route": "172.17.239.255",
+        "interface": "172.17.224.1",
+        "protocol": "N/A",
+        "source": "172.17.224.1",
+        "metric": "271"
+    },
+    {
+        "route": "192.168.56.0",
+        "interface": "192.168.56.1",
+        "protocol": "N/A",
+        "source": "192.168.56.1",
+        "metric": "281"
+    },
+    {
+        "route": "192.168.56.1",
+        "interface": "192.168.56.1",
+        "protocol": "N/A",
+        "source": "192.168.56.1",
+        "metric": "281"
+    },
+    {
+        "route": "192.168.56.255",
+        "interface": "192.168.56.1",
+        "protocol": "N/A",
+        "source": "192.168.56.1",
+        "metric": "281"
+    },
+    {
+        "route": "224.0.0.0",
+        "interface": "127.0.0.1",
+        "protocol": "N/A",
+        "source": "127.0.0.1",
+        "metric": "331"
+    },
+    {
+        "route": "224.0.0.0",
+        "interface": "192.168.56.1",
+        "protocol": "N/A",
+        "source": "192.168.56.1",
+        "metric": "281"
+    },
+    {
+        "route": "224.0.0.0",
+        "interface": "172.17.224.1",
+        "protocol": "N/A",
+        "source": "172.17.224.1",
+        "metric": "271"
+    },
+    {
+        "route": "224.0.0.0",
+        "interface": "10.137.207.121",
+        "protocol": "N/A",
+        "source": "10.137.207.121",
+        "metric": "311"
+    },
+    {
+        "route": "255.255.255.255",
+        "interface": "127.0.0.1",
+        "protocol": "N/A",
+        "source": "127.0.0.1",
+        "metric": "331"
+    },
+    {
+        "route": "255.255.255.255",
+        "interface": "192.168.56.1",
+        "protocol": "N/A",
+        "source": "192.168.56.1",
+        "metric": "281"
+    },
+    {
+        "route": "255.255.255.255",
+        "interface": "172.17.224.1",
+        "protocol": "N/A",
+        "source": "172.17.224.1",
+        "metric": "271"
+    },
+    {
+        "route": "255.255.255.255",
+        "interface": "10.137.207.121",
+        "protocol": "N/A",
+        "source": "10.137.207.121",
+        "metric": "311"
+    }
+]
